@@ -319,8 +319,15 @@ autostart="true"
 hidden="true"
 mastersound>
 
-<iframe src="https://pomf.lain.la/f/mdeuip6g.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-</iframe> 
+<script>
+window.onload = function() {
+  var context = new AudioContext();
+}
+</script>
+
+<audio autoplay>
+      <source src="https://pomf.lain.la/f/mdeuip6g.mp3">
+</audio>
 
 <script>window.clientSideRender = false;</script>
 
