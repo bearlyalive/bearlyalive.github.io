@@ -1,7 +1,7 @@
 (function() {
 	function getParams(startAttr, speedAttr) {
-		let start = 3000;
-		let speed = 250;
+		let start = 10;
+		let speed = 500;
 
 		let scripts = window.document.getElementsByTagName('script');
 
